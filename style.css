@@ -1,0 +1,72 @@
+input.red_class {
+    width: 300px;
+}
+
+input, select{
+    border: none;
+    border-radius: 5px;
+}
+
+* { font-family: "Bebas Neue",Arial,sans-serif;
+    font-size: 21px;
+}
+
+button { padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    background-color: #1c8a79;
+    border: none;
+    color: white;
+    text-shadow: none;
+}
+
+button:hover {
+    background-color: #5d93f6;
+}
+
+button:active {
+    box-shadow: 0 0 2px #155F83;
+}
+
+body{
+    background: #7b4397;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #dc2430, #7b4397);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dc2430, #7b4397); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.fields{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fields p {
+    height: 35px;
+}
+
+.fields_names{
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.fields_names p{
+    height: 35px;
+}
+
+.fields_block{
+    display: flex;
+}
+
+.main_block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

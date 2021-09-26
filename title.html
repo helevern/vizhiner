@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="main_block">
+    <div class="fields_block">
+            <div class="fields_names">
+                <p>Алфавит:</p>
+                <p>Ключ:</p>
+                <p>Открытый текст:</p>
+                <p>Шифрованный текст:</p>
+            </div>
+            <div class="fields">
+                <p>
+                    <select id="alphabet_data" class="red_class">
+                        <option value="en" selected>_1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</option>
+                        <option value="ru">_1234567890АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя</option>
+                    </select><span id="span1"></span>
+                </p>
+                <p>
+                    <input type="text" id="key_data" class="red_class" value="">
+                    <input type="hidden" id="key_data_long" class="" value="">
+                </p>
+                <p>
+                    <input type="text" id="input_data" class="red_class" value="">
+                </p>
+                <p>
+                    <input type="text" id="output_data" class="red_class" value="">
+                </p>
+            </div>
+    </div>
+<div class="buttons">
+    <button id="codebutton">ЗАШИФРОВАТЬ</button>
+    <button id="decodebutton">РАСШИФРОВАТЬ</button>
+</div>
+</div>
+
+<script src="main.js"></script>
+
+</body>
+</html>
