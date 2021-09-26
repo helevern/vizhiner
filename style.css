@@ -7,6 +7,19 @@ input, select{
     border-radius: 5px;
 }
 
+.heading{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 56px;
+    color: antiquewhite;
+}
+
 * { font-family: "Bebas Neue",Arial,sans-serif;
     font-size: 21px;
 }
